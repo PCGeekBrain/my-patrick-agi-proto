@@ -20,7 +20,6 @@
 
      nohup python pyServer.py >> /dev/null 2>&1 &
 
-Write down pid to kill later. If you don't it will be a nightmare. Trust me
 
 ## Setup
 
@@ -35,11 +34,4 @@ Write down pid to kill later. If you don't it will be a nightmare. Trust me
 
 3. Direct the trunk you want to test to `my-patrick-proto,66,1` (generally with `Goto()`)
 
-## Integration
 
-Send us the following information:
-
-1. Your IP address for the python Server
-2. A list of dialplan routes and what you want them to be called (These will be called in astersik directly so please check them)
-
-## Enjoy!
